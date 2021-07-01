@@ -23,9 +23,9 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                text="നിങ്ങൾ ചാനലിൽ ഉണ്ടെങ്കിൽ മാത്രമേ FILES ലഭിക്കുകയുള്ളൂ 😎",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
