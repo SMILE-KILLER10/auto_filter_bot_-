@@ -48,7 +48,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = "👇നമ്മുടെ ഗ്രൂപ്പ് ഷെയർ ചെയ്യൂ👇,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -56,7 +56,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '💘SHARE💘', url="https://telegram.me/share/url?url=https://t.me/filmcornermm"
                                 )
                         ]
                     ]
@@ -75,7 +75,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://telegram.me/share/url?url=https://t.me/filmcornermm"
                                 )
                         ]
                     ]
@@ -94,7 +94,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://telegram.me/share/url?url=https://t.me/filmcornermm"
                                 )
                         ]
                     ]
@@ -107,10 +107,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('GROUP', url='https://t.me/filmcornermm'),
+        InlineKeyboardButton('CHANNEL', url ='https://t.me/fc_new_movies')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('MOVIE UPDATES', url='https://t.me/CGFILMUPDATES')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
