@@ -20,5 +20,5 @@ class Translation(object):
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ GROUP</b> : <i><a href="https://t.me/filmcornermm">JOIN</a></i>
+<b>➥ GROUP</b> : <i><a href="https://t.me/filmcornermm">JOIN NOW</a></i>
 """
