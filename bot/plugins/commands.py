@@ -108,7 +108,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('GROUP', url='https://t.me/filmcornermm'),
-        InlineKeyboardButton('CHANNEL', url ='https://t.me/fc_new_movies')
+        InlineKeyboardButton('CHANNEL', url ='https://t.me/FILM_CORNER_official')
     ],[
         InlineKeyboardButton('MOVIE UPDATES', url='https://t.me/CGFILMUPDATES')
     ],[
